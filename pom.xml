@@ -26,10 +26,7 @@
     <jacoco.plugin.version>0.8.1</jacoco.plugin.version>
   </properties>
          
-  <properties>
-    <sonar.projectKey>project_test</sonar.projectKey>
-  </properties>
-
+ 
   <dependencies>
     <!-- Testing dependencies. -->
     <dependency>
