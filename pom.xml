@@ -26,6 +26,10 @@
     <jacoco.plugin.version>0.8.1</jacoco.plugin.version>
   </properties>
          
+  <properties>
+     <sonar.organization>javamavengithub</sonar.organization>
+     <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+  </properties>
  
   <dependencies>
     <!-- Testing dependencies. -->
