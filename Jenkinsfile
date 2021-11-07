@@ -1,7 +1,7 @@
 pipeline {
     agent any
     tools {
-        maven 'mvn3.6.0'
+        maven 'Maven'
     }
 
     stages {
@@ -14,7 +14,7 @@ pipeline {
         }
         stage('Maven Build') {
             tools{
-                jdk 'jdk8'
+                jdk 'JDK8'
             }
             steps {
                 sh 'mvn install'
@@ -22,7 +22,7 @@ pipeline {
         }
         stage('SonarQube') {
             tools{
-                jdk 'jdk11'
+                jdk 'JDK11'
             }
         environment {
             scannerHome = tool 'SonarQube Scanner'
