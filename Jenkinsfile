@@ -35,7 +35,7 @@ pipeline {
                 '-Dsonar.projectKey=project_test ' +
                 '-Dsonar.login=2df3a596d45070ec4b31610f967b24c4ca9af2d8 ' +
                 // '-Dsonar.java.binaries=. ' +
-                // '-DskipTests=true' +
+                '-DskipTests=true' +
                 // '-Dsonar.cfamily.build-wrapper-output=bw-output ' +
                 '-Dsonar.projectName=project_test ' +
                 '-Dsonar.projectVersion=$BUILD_NUMBER'
